@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Metier Staffing Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #00bcd4;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #222;
+      border-left: 5px solid red;
+      padding-left: 15px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact-form {
+      background: #f5f5f5;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #00bcd4;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav a {
+        margin: 10px 10px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Metier Staffing Solutions</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#vision">Vision</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome to Metier Staffing Solutions</h2>
+  <p>We are your trusted partner in recruitment and talent acquisition. Whether you are an employer or a job seeker, we bridge the gap to make the perfect match happen.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Metier Staffing Solutions is a professional placement consultancy committed to delivering tailored staffing solutions for businesses across industries. Our approach combines technology and human insight to find the right talent for the right job.</p>
+</section>
+
+<section id="mission">
+  <h2>Our Mission</h2>
+  <p>To connect ambitious professionals with organizations where they can grow, succeed, and make an impact — empowering both the workforce and businesses to thrive.</p>
+</section>
+
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>To become a globally recognized staffing partner known for our integrity, innovation, and people-first approach, helping create a workforce ecosystem that benefits all.</p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/200x150?text=Team" alt="Gallery 1">
+    <img src="https://via.placeholder.com/200x150?text=Events" alt="Gallery 2">
+    <img src="https://via.placeholder.com/200x150?text=Clients" alt="Gallery 3">
+    <img src="https://via.placeholder.com/200x150?text=Office" alt="Gallery 4">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-form">
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email" placeholder="Your Email" required>
+      <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Metier Staffing Solutions. All rights reserved.
+</footer>
+
+</body>
+</html>
